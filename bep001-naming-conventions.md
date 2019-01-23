@@ -54,7 +54,7 @@ If the grouping logic of several scans of the same modality is (entirely or part
 
 ### `part-<mag/phase>` key-value pair
 
-See (0008,0008) Image Type. Vendor variant?
+See DICOM tag (0008,0008) Image Type. Allows for storing phase and magnitude images. In its absence the image is assumed to be magnitude. Phase images should be in radians and have a range of (0, 2 pi] (including 0, excluding 2 pi).
 
 ### Description of the quantitative maps 
 

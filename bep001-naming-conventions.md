@@ -71,3 +71,5 @@ See (0008,0008) Image Type. Vendor variant?
 | PDmap     | Proton density map                           | N/A   |
 | T1Rmap    | T1-rho (T1 relaxation in rotating frame) map | ms    |
 | UNIT1     | Homogeneous (flat) T1w image                 | N/A   |
+
+Quantitative images/maps should be stored in the derivatives-folder, but can be symlinked to the corresponding sourcedata-directory, to facilitate the easy use of these images as input to processing workflows implemented as BIDS-apps.

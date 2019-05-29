@@ -157,7 +157,7 @@ but we reccomend not to use them anymore. They are ambiguous and/or inconsistent
 
 ### Justification 
 The following suffixes are moved to the legacy table:
- * **`_T2`\***: what is meant is T2\*-_weighted_ data. To be consistent with the suffixes `T1w`, `T2w` and `PDw`, we want
+ * **`_T2star`**: what is meant is T2\*-_weighted_ data. To be consistent with the suffixes `T1w`, `T2w` and `PDw`, we want
 to use the suffix `_T2starw` for this.
  * **`_FLAIR`**: This is a sequence name rather than a contrast or a way of grouping quantitative maps. We prefer to use
 `_T2w`, `_PDw`, or `_MESE` depending on the use case.

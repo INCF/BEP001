@@ -157,19 +157,18 @@ but we reccomend not to use them anymore. They are ambiguous and/or inconsistent
 
 ### Justification 
 The following suffixes are moved to the legacy table:
- * *_T2\**: what is meant is T2\*-_weighted_ data. To be consistent with the suffixes `T1w`, `T2w` and `PDw`, we want
+ * **`_T2`\***: what is meant is T2\*-_weighted_ data. To be consistent with the suffixes `T1w`, `T2w` and `PDw`, we want
 to use the suffix `_T2starw` for this.
- * *FLAIR*: This is a sequence name rather than a contrast or a way of grouping quantitative maps. We prefer to use
-`_T2w` or `_PDw`, or `_MESE` depending on the use case.
- * *_FLASH*: This is a sequence name rather than a contrast or a way of grouping quantitative maps. We prefer to use
- * *_PD*: what is meant is T2\*-_weighted_ data. To be consistent with the suffixes `T1w`, `T2w` and `T2starw`, we want
+ * **`_FLAIR`**: This is a sequence name rather than a contrast or a way of grouping quantitative maps. We prefer to use
+`_T2w`, `_PDw`, or `_MESE` depending on the use case.
+ * **`_FLASH`**: This is a sequence name rather than a contrast or a way of grouping quantitative maps. We prefer to use
+`_T2starw`, `_PDw`, or `_GREME` depending on the use case.
+ * **`_PD`**: what is meant is PD*-_weighted_ data. To be consistent with the suffixes `T1w`, `T2w` and `T2starw`, we want
 to use the suffix `_PDw` for this.
- * *PD*: what is meant is T2\*-_weighted_ data. To be consistent with the suffixes `T1w`, `T2w` and `T2starw`, we want
-to use the suffix `_PDw` for this.
- * *_PDT2*: We recommend to use `PDT2map` for this.
- * *_inplaneT1*: this is not a proper MRI contrast or grouping variable. The fact that the data is acquired with the
+ * **`_PDT2`**: We recommend to use `PDT2map` for this.
+ * **`_inplaneT1`**: this is not a proper MRI contrast or grouping variable. The fact that the data is acquired with the
 same prescription as the functional data is already decsribed in the orientation matrix. Furthermore,
 it could be communicated via the `acq-`-tag.
- * *_inplaneT2*: this is not a proper MRI contrast or grouping variable. The fact that the data is acquired with the
+ * **`_inplaneT2`**: this is not a proper MRI contrast or grouping variable. The fact that the data is acquired with the
 same prescription as the functional data is already decsribed in the orientation matrix. Furthermore,
 it could be communicated via the `acq-`-tag.

@@ -156,6 +156,7 @@ Moves some suffixes for `anatomical data` to a new table called "LEGACY suffixes
 but we reccomend not to use them anymore. They are ambiguous and/or inconsistent.
 
 ### Justification 
+### Justification 
 The following suffixes are moved to the legacy table:
  * **`_T2`\***: what is meant is T2\*-_weighted_ data. To be consistent with the suffixes `T1w`, `T2w` and `PDw`, we want
 to use the suffix `_T2starw` for this.

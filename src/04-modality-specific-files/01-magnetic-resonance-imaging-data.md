@@ -333,10 +333,10 @@ Some parametrically linked anatomical images involve both magnitude and phase
 reconstructed images in the calculation of a parameter map. In that case, the
 filename MUST make use of this key/value pair to distinguish between them.
 
-Phase images SHOULD be in radians and have a range of (0, 2 pi]
-(including 0, excluding 2 pi).
-The `part-<mag/phase>` key/value pair is associated with the DICOM tag 0008,0008
-`Image Type`.
+Phase images MUST be in units of radians, and SHOULD NOT contain values
+spanning a range of `2 pi` or greater (e.g. values SHOULD be restricted to
+`[-pi, pi)` or `[0, 2 pi)`). The `part-<mag/phase>` key/value pair is
+associated with the DICOM tag 0008,0008 `Image Type`.
 
 For example (for an `MP2RAGE` dataset):
 
@@ -348,6 +348,9 @@ sub-01_inv-2_part-mag_MP2RAGE.nii.gz
 sub-01_inv-2_part-phase_MP2RAGE.nii.gz
 sub-01_inv-2_MP2RAGE.json
 ```
+
+If a file name does NOT include a `part-<mag/phase>` key/value pair, it can be 
+assumed that the corresponding file contains magnitude images.
 
 ### Task (including resting state) imaging data
 
@@ -429,7 +432,7 @@ field EchoTime of the separate JSON file. This is an example of the
 `indexable_metadata` entity as described
 [here](src/04-modality-specific-files/01-magnetic-resonance-imaging-data.md#indexable_metadata-index-key-value-pair)).
 
-Some meta information about the acquisition MUST be provided in an additional
+Some meta information about the acquisition MUST be provided in an additional
 JSON file.
 
 #### Required fields

@@ -1,5 +1,5 @@
 {"IntendedFor": ["anat/sub-01_PDmap.nii.gz",
-			"anat/sub-01_MTmap.nii.gz",
+			"anat/sub-01_MTsat.nii.gz",
 			"anat/sub-01_R1map.nii.gz",
 "anat/sub-01_R2starmap.nii.gz"],
 "RepetitionTime": 1.02,

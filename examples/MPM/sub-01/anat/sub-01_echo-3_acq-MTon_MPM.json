@@ -1,4 +1,8 @@
 {
+	"EchoTime": 0.0069,
+	"RepetitionTime": 0.025,
+	"FlipAngle": 21,
+	"MTState" : "On",
 	"Modality": "MR",
 	"MagneticFieldStrength": 3,
 	"Manufacturer": "Siemens",
@@ -12,8 +16,8 @@
 	"PatientPosition": "HFS",
 	"SoftwareVersions": "syngo_MR_E11",
 	"MRAcquisitionType": "3D",
-	"SeriesDescription": "mfc_3dflash_PDw_GRAPPA4_PSN_488BW",
-	"ProtocolName": "mfc_3dflash_PDw_GRAPPA4_PSN_488BW",
+	"SeriesDescription": "mfc_3dflash_MTw_GRAPPA4_PSN_488BW",
+	"ProtocolName": "mfc_3dflash_MTw_GRAPPA4_PSN_488BW",
 	"ScanningSequence": "RM",
 	"SequenceVariant": "SP",
 	"SequenceName": "fl3d_1i3d8",
@@ -24,9 +28,6 @@
 	"SliceThickness": 1,
 	"SAR": 0.0146488,
 	"EchoNumber": 5,
-	"EchoTime": 0.0115,
-	"RepetitionTime": 0.025,
-	"FlipAngle": 6,
 	"PartialFourier": 1,
 	"BaseResolution": 256,
 	"ShimSetting": [
@@ -59,6 +60,4 @@
 		-0.5,
 		-0.866025	],
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
-	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20180325 GCC4.8.5"
 }

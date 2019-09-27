@@ -1,4 +1,8 @@
 {
+	"EchoTime": 0.0069,
+	"RepetitionTime": 0.025,
+	"FlipAngle": 6,
+	"MTState" : "Off",
 	"Modality": "MR",
 	"MagneticFieldStrength": 3,
 	"Manufacturer": "Siemens",
@@ -24,9 +28,6 @@
 	"SliceThickness": 1,
 	"SAR": 0.0146488,
 	"EchoNumber": 5,
-	"EchoTime": 0.0115,
-	"RepetitionTime": 0.025,
-	"FlipAngle": 6,
 	"PartialFourier": 1,
 	"BaseResolution": 256,
 	"ShimSetting": [
@@ -59,6 +60,4 @@
 		-0.5,
 		-0.866025	],
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
-	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20180325 GCC4.8.5"
 }

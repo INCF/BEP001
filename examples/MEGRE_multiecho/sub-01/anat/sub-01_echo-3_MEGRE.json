@@ -1,3 +1,9 @@
 {
-    "EchoTime": 0.03
+    "IntendedFor": ["anat/sub-01_T2starmap.nii.gz",
+                    "anat/sub-01_QSM.nii.gz"],
+    "MagneticFieldStrength": "3",
+    "Manufacturer": "GE",
+    "PulseSequenceType": "SPGR",
+    "RepetitionTime":  "0.0150",
+    "FlipAngle": "3"
 }

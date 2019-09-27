@@ -1,8 +1,8 @@
 {
     "BasedOn": [
-        "anat/sub-01_echo-1_part-mag_FLASH.nii.gz",
-        "anat/sub-01_echo-2_part-mag_FLASH.nii.gz",
-        "anat/sub-01_echo-3_part-mag_FLASH.nii.gz"
+        "anat/sub-01_echo-1_part-mag_MEGRE.nii.gz",
+        "anat/sub-01_echo-2_part-mag_MEGRE.nii.gz",
+        "anat/sub-01_echo-3_part-mag_MEGRE.nii.gz"
     ],
     "EstimationMethod": "Linear least-squares"
 }

@@ -1,0 +1,9 @@
+{
+    "Name": "BEP001 example dataset 01 (multi-echo FLASH)",
+    "BIDSVersion": "1.0.10",
+    "Authors": [
+        "Kirstie Whitaker",
+        "Gilles de Hollander"
+    ],
+    "Description": "This virtual dataset is collected using a single MEGRE sequence, which yields multiple images, corresponding to different echo times. This data has been used to calculate a quantitative susceptibility map, as well as a T2* map."
+}

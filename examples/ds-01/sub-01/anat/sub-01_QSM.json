@@ -1,7 +1,0 @@
-{
-    "BasedOn": [
-        "anat/sub-01_echo-1_part-mag_FLASH.nii.gz",
-        "anat/sub-01_echo-1_part-phase_FLASH.nii.gz"
-    ],
-    "EstimationMethod": "Schaefer et al., 2011"
-}

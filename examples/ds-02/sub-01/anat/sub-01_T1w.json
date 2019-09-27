@@ -1,9 +1,0 @@
-{
-    "BasedOn": [
-        "anat/sub-01_inv1_part-mag_MPRAGE.nii.gz",
-        "anat/sub-01_inv1_part-phase_MPRAGE.nii.gz",
-        "anat/sub-01_inv2_part-mag_MPRAGE.nii.gz",
-        "anat/sub-01_inv2_part-phase_MPRAGE.nii.gz"
-    ],
-    "EstimationMethod": "Marques et al., 2013"
-}
